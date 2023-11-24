@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.video-background {
+  @apply fixed top-0 left-0 w-full h-full -z-10 object-cover;
+}
