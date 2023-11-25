@@ -1,19 +1,20 @@
-import axios from "axios";
-import { useEffect, useState } from "react";
-
+import { AiFillHome } from "react-icons/ai";
+import { Link } from "react-router-dom";
 const Benjerry = () => {
-  const [web, setWeb] = useState(null);
-
-  useEffect(() => {
-    const response = axios.get("https://benjerry-clone.vercel.app/");
-
-    setWeb(response.data);
-  }, []);
-
-  if (!web) {
-    return <div>...Loading</div>;
-  }
-
-  return <div>{web}</div>;
+  return (
+    <div>
+      <button className="text-5xl">
+        <Link to="/.">
+          <AiFillHome />
+        </Link>
+      </button>
+      <span className="font-bold">Main</span>
+      <iframe
+        title="benjerry"
+        className="w-[1920px] h-[920px] object-cover -z-10 top-0 left-0 fixed"
+        src="https://benjerry-clone.vercel.app/"
+      ></iframe>
+    </div>
+  );
 };
 export default Benjerry;
