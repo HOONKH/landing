@@ -16,16 +16,19 @@ const main = () => {
       remember that the
   airplane takes off against 
      the wind, not with it 
-             -H662`}
+             -h662`}
       <span className="animate__animated animate__zoomIn text-3xl">{`블체스 화이팅!! D${setOurDday} `}</span>
       <div className="flex gap-5">
-        <button className="border-2 border-none px-2 bg-[#3F833F] hover:bg-green-400 animate__animated animate__slideInUp">
+        <button className="border-2 border-none px-2 bg-[#3F833F] hover:bg-green-600 animate__animated animate__slideInUp">
           <Link to="/benjerry">BEN&JERRY</Link>
         </button>
         <button className="border-2 border-none px-2 text-black bg-[#fff200] shadow-2xl shadow-[#3f833f] hover:bg-yellow-100 animate__animated animate__slideInUp">
           <Link to="/wafflehouse">WAFFLEHOUSE</Link>
         </button>
       </div>
+      <button className="border-2 border-none px-2 text-black bg-white shadow-2xl shadow-[#3f833f] hover:bg-gray-200 mr-5 animate__animated animate__slideInUp">
+        <Link to="/et">Fortune Teller</Link>
+      </button>
     </div>
   );
 };

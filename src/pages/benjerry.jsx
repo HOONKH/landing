@@ -8,7 +8,7 @@ const Benjerry = () => {
           <AiFillHome />
         </Link>
       </button>
-      <span className="font-bold">Main</span>
+      <span className="font-bold">HOME</span>
       <iframe
         title="benjerry"
         className="w-[1920px] h-[920px] object-cover -z-10 top-0 left-0 fixed"
