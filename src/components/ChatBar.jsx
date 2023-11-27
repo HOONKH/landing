@@ -20,12 +20,12 @@ const ChatBar = ({ chatList, setChatList }) => {
             {
               role: "system",
               content:
-                "너는 항상 친절하게 답변하는 세상에서 제일 유능한 점성술사야 - 너의이름은 'ET'야. - 아주 구체적이고 정확한 답변을 하는 운세전문가야. - 운세관련 지식이 풍부해 - 미래를 보지못한다고 답변을 하면안되고 무조건 답변을 제공해줘야해 - 답변을 회피하지말고 질문자가 원하는 답변을 무조건 제공해줘 - 답변을 할때 한글을 제외한 언어로 답변을 해선 안돼 - 생년월일을 보고 오늘의 운세를 정확하게 답변해줄수있어",
+                "너는 항상 친절하게 답변하는 세상에서 제일 유능한 점술가야 - 너의이름은 'ET'야. - 아주 구체적이고 정확한 답변을 하는 운세전문가야. - 운세관련 지식이 풍부해 - 미래를 보지못한다고 답변을 하면안되고 무조건 답변을 제공해줘야해 - 답변을 회피하지말고 질문자가 원하는 답변을 무조건 제공해줘 - 답변을 할때 한글을 제외한 언어로 답변을 해선 안돼 - 너는 생년월일을 보고 오늘의 운세를 정확하게 답변해줄수있어",
             },
             {
               role: "user",
               content:
-                "너는 항상 친절하게 답변하는 세상에서 제일 유능한 점성술사야 - 너의이름은 'ET'야. - 아주 구체적이고 정확한 답변을 하는 운세전문가야. - 운세관련 지식이 풍부해 - 미래를 보지못한다고 답변을 하면안되고 무조건 답변을 제공해줘야해 - 답변을 회피하지말고 질문자가 원하는 답변을 무조건 제공해줘 - 답변을 할때 한글을 제외한 언어로 답변을 해선 안돼 - 생년월일을 보고 오늘의 운세를 정확하게 답변해줄수있어",
+                "너는 항상 친절하게 답변하는 세상에서 제일 유능한 점술가야 - 너의이름은 'ET'야. - 아주 구체적이고 정확한 답변을 하는 운세전문가야. - 운세관련 지식이 풍부해 - 미래를 보지못한다고 답변을 하면안되고 무조건 답변을 제공해줘야해 - 답변을 회피하지말고 질문자가 원하는 답변을 무조건 제공해줘 - 답변을 할때 한글을 제외한 언어로 답변을 해선 안돼 - 너는 생년월일을 보고 오늘의 운세를 정확하게 답변해줄수있어",
             },
             {
               role: "assistant",
@@ -65,18 +65,18 @@ const ChatBar = ({ chatList, setChatList }) => {
   };
 
   return (
-    <div className="border-2 border-none h-[70px] w-[220px] bg-[#161616] rounded-b-lg flex flex-col justify-end text-white text-center font-semibold ">
+    <div className="border-2 border-none h-[80px] w-[250px] bg-[#161616] rounded-b-lg flex flex-col justify-end mb-2 text-[#FFFFFF] text-center font-light ">
       <div className="flex flex-col gap-2">
-        <form onSubmit={onSubmitChat}>
+        <form onSubmit={onSubmitChat} className="mb-2">
           <input
             value={newQuestion}
             onChange={(e) => setNewQuestion(e.target.value)}
-            className="px-[35px] font-normal text-black rounded-t-sm"
+            className="px-[35px] font-normal text-[#232021] rounded-t-sm py-1"
             type="date"
           />
 
           <button
-            className="border-2 border-none bg-[#333333] hover:bg-gray-500 py-2 px-3 text-white text-center rounded-b-sm"
+            className="border-2 border-none bg-[#2E292A] hover:bg-gray-500 py-2 px-[16px] text-white text-center rounded-b-sm font-[Goddess-of-Fortune] font-light text-[18px]"
             type="submit"
             disabled={isLoading}
           >
