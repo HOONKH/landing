@@ -16,7 +16,7 @@ const main = () => {
       remember that the
   airplane takes off against 
      the wind, not with it 
-             -h662`}
+          -Henry Ford`}
       <span className="animate__animated animate__zoomIn text-3xl">{`블체스 화이팅!! D${setOurDday} `}</span>
       <div className="flex gap-5">
         <button className="border-2 border-none px-2 bg-[#3F833F] hover:bg-green-600 animate__animated animate__slideInUp">

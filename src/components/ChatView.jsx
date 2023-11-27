@@ -6,7 +6,8 @@ const ChatView = ({ chatList }) => {
       {chatList.length === 0 ? (
         <div className="text-center whitespace-pre-wrap">
           {`오늘의 운세를 보고 가세요! 
-아래에 생년월일을 입력해주세요`}
+아래에 생년월일을 입력하고 
+Today's fortune cookie를 눌러주세요!`}
         </div>
       ) : (
         chatList.map((v, i) => (
