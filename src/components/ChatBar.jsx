@@ -76,7 +76,7 @@ const ChatBar = ({ chatList, setChatList }) => {
           />
 
           <button
-            className="border-2 border-none bg-[#2E292A] hover:bg-gray-500 py-2 px-[16px] text-white text-center rounded-b-sm font-[Goddess-of-Fortune] font-light text-[18px]"
+            className="border-2 border-none bg-[#2E292A] hover:bg-gray-500 focus:outline-none py-1 px-[16px] text-white text-center rounded-b-sm font-[Goddess-of-Fortune] font-light text-[18px]"
             type="submit"
             disabled={isLoading}
           >

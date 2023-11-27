@@ -2,7 +2,7 @@ import ChatCard from "./ChatCard";
 
 const ChatView = ({ chatList }) => {
   return (
-    <ul className="h-[500px] w-[250px] balloon text-[#FFFFFF]  text-start mx-auto flex flex-col whitespace-pre-wrap overflow-y-auto text-[14px] font-[JeonjuCraftMjB] font-light pt-2">
+    <ul className="h-[500px] w-[250px] balloon text-[#FFFFFF]  text-start mx-auto flex flex-col whitespace-pre-wrap overflow-y-auto text-[14px] font-[JeonjuCraftMjB] font-light  pt-2">
       {chatList.length === 0 ? (
         <div className="text-center whitespace-pre-wrap  ">
           {`오늘의 운세를 보고 가세요! 
