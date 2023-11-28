@@ -29,6 +29,9 @@ const main = () => {
       <button className="border-2 border-none px-2 text-black bg-white shadow-2xl shadow-[#3f833f] hover:bg-gray-200 mr-5 animate__animated animate__slideInUp">
         <Link to="/et">Fortune Teller</Link>
       </button>
+      <button className="border-2 border-none px-2 text-black bg-white shadow-2xl shadow-[#3f833f] hover:bg-gray-200 mr-5 animate__animated animate__slideInUp">
+        <Link to="/nft">My NFT page</Link>
+      </button>
     </div>
   );
 };
