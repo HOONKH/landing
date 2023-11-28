@@ -4,6 +4,7 @@ import Main from "./pages/Main";
 import Benjerry from "./pages/benjerry";
 import Wafflehouse from "./pages/wafflehouse";
 import Et from "./pages/et";
+import Nft from "./pages/nft";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/benjerry" element={<Benjerry />} />
         <Route path="/wafflehouse" element={<Wafflehouse />} />
         <Route path="/Et" element={<Et />} />
+        <Route path="/nft" element={<Nft />} />
       </Routes>
     </BrowserRouter>
   );

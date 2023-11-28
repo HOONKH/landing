@@ -1,4 +1,7 @@
-const nft = () => {
+import { AiFillHome } from "react-icons/ai";
+import { Link } from "react-router-dom";
+
+const Nft = () => {
   return (
     <div>
       <button className="text-5xl">
@@ -15,4 +18,4 @@ const nft = () => {
     </div>
   );
 };
-export default nft;
+export default Nft;

@@ -26,12 +26,14 @@ const main = () => {
           <Link to="/wafflehouse">WAFFLEHOUSE</Link>
         </button>
       </div>
-      <button className="border-2 border-none px-2 text-black bg-white shadow-2xl shadow-[#3f833f] hover:bg-gray-200 mr-5 animate__animated animate__slideInUp">
-        <Link to="/et">Fortune Teller</Link>
-      </button>
-      <button className="border-2 border-none px-2 text-black bg-white shadow-2xl shadow-[#3f833f] hover:bg-gray-200 mr-5 animate__animated animate__slideInUp">
-        <Link to="/nft">My NFT page</Link>
-      </button>
+      <div className="flex gap-4">
+        <button className="border-2 border-none px-2 text-black bg-white shadow-2xl shadow-[#3f833f] hover:bg-gray-200  animate__animated animate__slideInUp">
+          <Link to="/et">Fortune Teller</Link>
+        </button>
+        <button className="border-2 border-none px-2 text-black bg-white shadow-2xl shadow-[#3f833f] hover:bg-gray-200  animate__animated animate__slideInUp">
+          <Link to="/nft">My NFT page</Link>
+        </button>
+      </div>
     </div>
   );
 };
