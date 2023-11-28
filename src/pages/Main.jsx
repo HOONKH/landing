@@ -17,7 +17,7 @@ const main = () => {
   airplane takes off against 
      the wind, not with it 
           -Henry Ford`}
-      <span className="animate__animated animate__zoomIn text-3xl">{`블체스 화이팅!! D${setOurDday} `}</span>
+      <span className="animate__animated animate__zoomIn text-3xl">{`블체스 D${setOurDday} `}</span>
       <div className="flex gap-5">
         <button className="border-2 border-none px-2 bg-[#3F833F] hover:bg-green-600 animate__animated animate__slideInUp">
           <Link to="/benjerry">BEN&JERRY</Link>
@@ -30,7 +30,7 @@ const main = () => {
         <button className="border-2 border-none px-2 text-black bg-white shadow-2xl shadow-[#3f833f] hover:bg-gray-200  animate__animated animate__slideInUp">
           <Link to="/et">Fortune Teller</Link>
         </button>
-        <button className="border-2 border-none px-2 text-black bg-white shadow-2xl shadow-[#3f833f] hover:bg-gray-200  animate__animated animate__slideInUp">
+        <button className="border-2 border-none px-2 text-white bg-black shadow-2xl shadow-[#3f833f] hover:bg-gray-700  animate__animated animate__slideInUp">
           <Link to="/nft">My NFT page</Link>
         </button>
       </div>
